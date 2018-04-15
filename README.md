@@ -1,1 +1,3 @@
-# multiprocess
+# multiproce
+python实现分布式进程，在Thread和Process中，应当优选Process，因为Process更稳定，而且，Process可以分布到多台机器上，而Thread最多只能分布到同一台机器的多个CPU上。
+选自廖雪峰的参考网站进程与线程中，适用于windows中运行，如果是python3.X版本，import Queue改为queue，如果在两台电脑上访问，需更改ip地址为服务进程的电脑的ip
